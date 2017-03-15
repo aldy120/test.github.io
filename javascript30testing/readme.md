@@ -29,7 +29,7 @@
 - 21 - Geolocation
 - [22 - Follow Along Link Highlighter][22]
 - [23 - Speech Synthesis][23]
-- 24 - Sticky Nav
+- [24 - Sticky Nav][24]
 - 25 - Event Capture, Propagation, Bubbling and Once
 - 26 - Stripe Follow Along Nav
 - 27 - Click and Drag
@@ -57,3 +57,4 @@
 [18]: https://aldy120.github.io/javascript30testing/18%20-%20Adding%20Up%20Times%20with%20Reduce/index-START.html
 [22]: https://aldy120.github.io/javascript30testing/22%20-%20Follow%20Along%20Link%20Highlighter/index-START.html
 [23]: https://aldy120.github.io/javascript30testing/23%20-%20Speech%20Synthesis/index-START.html
+[24]: https://aldy120.github.io/javascript30testing/24%20-%20Sticky%20Nav/index-START.html
