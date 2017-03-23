@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-# Chen Lichi 陳立其
+# Chen Lichi
 A passionate, experienced, skilled and versatile mathematics student with 0+ years of experience in programming. 
 
 A diligent self-learner and hard-worker.
@@ -49,7 +49,7 @@ Bachelor's Degree, **Applied Math** (Sep 2011 － Jun 2015)
   - Ratio of ranking 17.1%
   - Relevant Coursework: Calculus, Linear Algebra, Data Structures, Algorithms, Discrete Mathematics, Probabilities, Operating Systems, Computer Organization, Computer Networks
 
-- **Moocs**
+- **Online Courses**
 	- Coursera
 		- Machine Learning(Andrew Ng)
 	- MIT OCW

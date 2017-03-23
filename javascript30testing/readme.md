@@ -32,9 +32,9 @@
 - [24 - Sticky Nav][24]
 - [25 - Event Capture, Propagation, Bubbling and Once][25]
 - [26 - Stripe Follow Along Nav][26]
-- 27 - Click and Drag
-- 28 - Video Speed Controller
-- 29 - Countdown Timer
+- [27 - Click and Drag][27]
+- [28 - Video Speed Controller][28]
+- [29 - Countdown Timer][29]
 - 30 - Whack A Mole
 
 [1]: https://aldy120.github.io/javascript30testing/01%20-%20JavaScript%20Drum%20Kit/index-START.html
@@ -55,8 +55,12 @@
 [16]: https://aldy120.github.io/javascript30testing/16%20-%20Mouse%20Move%20Shadow/index-start.html
 [17]: https://aldy120.github.io/javascript30testing/17%20-%20Sort%20Without%20Articles/index-START.html
 [18]: https://aldy120.github.io/javascript30testing/18%20-%20Adding%20Up%20Times%20with%20Reduce/index-START.html
+
 [22]: https://aldy120.github.io/javascript30testing/22%20-%20Follow%20Along%20Link%20Highlighter/index-START.html
 [23]: https://aldy120.github.io/javascript30testing/23%20-%20Speech%20Synthesis/index-START.html
 [24]: https://aldy120.github.io/javascript30testing/24%20-%20Sticky%20Nav/index-START.html
 [25]: https://aldy120.github.io/javascript30testing/25%20-%20Event%20Capture,%20Propagation,%20Bubbling%20and%20Once/index-START.html
 [26]: https://aldy120.github.io/javascript30testing/26%20-%20Stripe%20Follow%20Along%20Nav/index-START.html
+[27]: https://aldy120.github.io/javascript30testing/27%20-%20Click%20and%20Drag/index-START.html
+[28]: https://aldy120.github.io/javascript30testing/28%20-%20Video%20Speed%20Controller/index-START.html
+[29]: https://aldy120.github.io/javascript30testing/29%20-%20Countdown%20Timer/index.html
