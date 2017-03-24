@@ -20,7 +20,6 @@ function getVideo() {
 function paintToCanvas() {
   const width = video.videoWidth;
   const height = video.videoHeight;
-  console.log(width, height);
 
   canvas.width = width;
   canvas.height = height;
@@ -43,5 +42,6 @@ function takePhoto() {
   strip.insertBefore(link, strip.firstChild);
 }
 
-getVideo();
+
 video.addEventListener('canplay', paintToCanvas);
+getVideo();
