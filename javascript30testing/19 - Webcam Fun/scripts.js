@@ -25,7 +25,7 @@ function paintToCanvas() {
   canvas.height = height;
 
   return setInterval(() => {
-    //ctx.drawImage(video, 0, 0, width, height);
+    ctx.drawImage(video, 0, 0, width, height);
 
     // take the pixels out
     let pixels = ctx.getImageData(0, 0, width, height);
@@ -47,7 +47,6 @@ function takePhoto() {
   const link = document.createElement('a');
   link.href = data;
   link.setAttribute('download', 'handsome');
-  // link.textContent = 'Download Image';
   link.innerHTML = `<img src=${data} alt="HandSome Man" />`;
   strip.insertBefore(link, strip.firstChild);
 }
@@ -66,9 +65,14 @@ function rgbSplit(pixels) {
   for (let i = 0; i < pixels.data.length; i += 4) {
     pixels.data[i - 100] = pixels.data[i];
     pixels.data[i + 500] = pixels.data[i + 1];
-    pixels.data[i - 550] = pixels.data[i + 2];
+    pixels.data[i - 500] = pixels.data[i + 2];
   }
   return pixels;
+}
+
+function greenScreen(pixels) {
+  const levels = {};
+
 }
 
 video.addEventListener('canplay', paintToCanvas);
