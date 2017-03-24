@@ -55,14 +55,19 @@ function takePhoto() {
 function redEffect(pixels) {
   for (let i = 0; i < pixels.data.length; i += 4) {
     // for each red, green and blue
-    pixels[i] += 100;
-    pixels[i + 1] -= 50;
-    pixels[i + 2] *= 0.5
+    pixels.data[i] += 100;
+    pixels.data[i + 1] -= 50;
+    pixels.data[i + 2] *= 0.5
   }
+
 }
 
 function rgbSplit(pixels) {
-
+  for (let i = 0; i < pixels.data.length; i += 4) {
+    pixels.data[i - 100] = pixels.data[i];
+    pixels.data[i + 500] = pixels.data[i + 1];
+    pixels.data[i - 550] = pixels.data[i + 2];
+  }
 }
 
 video.addEventListener('canplay', paintToCanvas);
