@@ -10,6 +10,7 @@ function getVideo() {
       console.log(localMediaStream);
       // HTML5 video has more functional, but it need a URL for src
       video.src = window.URL.createObjectURL(localMediaStream);
+      video.play();
     });
     
 
