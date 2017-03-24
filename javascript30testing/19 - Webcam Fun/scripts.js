@@ -25,7 +25,7 @@ function paintToCanvas() {
   canvas.height = height;
 
   return setInterval(() => {
-    ctx.drawImage(video, 0, 0, width, height);
+    //ctx.drawImage(video, 0, 0, width, height);
 
     // take the pixels out
     let pixels = ctx.getImageData(0, 0, width, height);
@@ -59,6 +59,10 @@ function redEffect(pixels) {
     pixels[i + 1] -= 50;
     pixels[i + 2] *= 0.5
   }
+}
+
+function rgbSplit(pixels) {
+
 }
 
 video.addEventListener('canplay', paintToCanvas);
