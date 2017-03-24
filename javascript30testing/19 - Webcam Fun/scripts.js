@@ -57,9 +57,9 @@ function redEffect(pixels) {
     // for each red, green and blue
     pixels.data[i] += 100;
     pixels.data[i + 1] -= 50;
-    pixels.data[i + 2] *= 0.5
+    pixels.data[i + 2] *= 0.5;
   }
-
+  return pixels;
 }
 
 function rgbSplit(pixels) {
@@ -68,6 +68,7 @@ function rgbSplit(pixels) {
     pixels.data[i + 500] = pixels.data[i + 1];
     pixels.data[i - 550] = pixels.data[i + 2];
   }
+  return pixels;
 }
 
 video.addEventListener('canplay', paintToCanvas);
