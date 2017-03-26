@@ -18,9 +18,21 @@
   let p = document.createElement('p');
   const words = document.querySelector('.words');
   words.appendChild(p);
+  
   recognition.addEventListener('result', e => {
-    console.log(e);
+    const transcript = Array.from(e.result)
+      .map(result => result[0])
+      .map(result => result.transcript)
+      .join('');
+
+    p.textContext = transcript;
+    if (e.result[0].isFinal) {
+      p = document.createElement('p');
+      words.appendChild(p);
+    }
   });
+
+  recognition.addEventListener('end', recongition.start);
 
   recognition.start();
 
